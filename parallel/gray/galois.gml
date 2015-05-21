@@ -141,7 +141,7 @@ union
 scene				  % scene to render
 3				  % tracing depth
 90.0				  % field of view
-600 400
+800 600
 "galois.ppm"		% output file
 render
 
