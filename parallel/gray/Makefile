@@ -13,6 +13,7 @@
 TOP = ../..
 include $(TOP)/mk/boilerplate.mk
 
-SRC_HC_OPTS += -package parallel -package parsec -fvia-C -fexcess-precision
+HS_SRCS = Geometry.hs Construct.hs Misc.hs Interval.hs Intersections.hs CSG.hs Surface.hs Illumination.hs Primitives.hs Data.hs Parse.hs Eval.hs Main.hs RayTrace.hs
+SRC_HC_OPTS += -package parallel -package parsec -fexcess-precision
 
 include $(TOP)/mk/target.mk
