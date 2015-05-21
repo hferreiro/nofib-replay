@@ -1,6 +1,7 @@
 TOP = ../..
 include $(TOP)/mk/boilerplate.mk
 
+HS_SRCS = TransClos.hs Main.hs
 SRC_HC_OPTS += -cpp -DSTRATEGIES -DTRANSCL_NESTED -package random -package parallel -package containers
 
 # XXX: only speeds up without optimisation.  This is bad.  Could be
