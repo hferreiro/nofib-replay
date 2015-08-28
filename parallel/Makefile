@@ -1,7 +1,7 @@
 TOP = ..
 include $(TOP)/mk/boilerplate.mk
 
-SUBDIRS = parfib partree sumeuler matmult ray gray prsa mandel queens \
+SUBDIRS = parfib partree sumeuler matmult ray prsa mandel queens \
           coins blackscholes minimax nbody transclos
 
 OTHER_SUBDIRS = cfd dcbm linsolv nbody partak quicksort threadfib warshall
